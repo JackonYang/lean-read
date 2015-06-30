@@ -8,6 +8,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 project_app = (
     'accounts',
+    'bookhub',
     )
 
 
