@@ -1,0 +1,173 @@
+[
+{
+    "fields": {
+        "douban_id": "26297606",
+        "url_amazon": "http://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/B00RWP6BOU/ref=tmm_hrd_title_0?ie=UTF8&qid=1435682572&sr=",
+        "desc": "Paypal\u521b\u59cb\u4eba\u3001Facebook\u7b2c\u4e00\u4f4d\u5916\u90e8\u6295\u8d44\u8005\u5f7c\u5f97\u2022\u8482\u5c14\u5728\u672c\u4e66\u4e2d\u8be6\u7ec6\u9610\u8ff0\u4e86\u81ea\u5df1\u7684\u521b\u4e1a\u5386\u7a0b\u4e0e\u5fc3\u5f97\uff0c\u5305\u62ec\u5982\u4f55\u907f\u514d\u7ade\u4e89\u3001\u5982\u4f55\u8fdb\u884c\u5784\u65ad\u3001\u5982\u4f55\u53d1\u73b0\u65b0\u7684\u5e02\u573a\u3002\u300a\u4ece0\u52301\u300b\u8fd8\u5c06\u5e26\u4f60\u7a7f\u8d8a\u54f2\u5b66\u3001\u5386\u53f2\u3001\u7ecf\u6d4e\u7b49\u591a\u5143\u9886\u57df\uff0c\u89e3\u8bfb\u4e16\u754c\u8fd0\u884c\u7684\u8109\u7edc\uff0c\u5206\u4eab\u5546\u4e1a\u4e0e\u672a\u6765\u53d1\u5c55\u7684\u903b\u8f91\uff0c\u5e2e\u52a9\u4f60\u601d\u8003\u4ece0\u52301\u7684\u79d8\u5bc6\uff0c\u5728\u610f\u60f3\u4e0d\u5230\u4e4b\u5904\u53d1\u73b0\u4ef7\u503c\u4e0e\u673a\u4f1a\u3002",
+        "cover": "cover/0to1.jpg",
+        "title": "\u4ece 0 \u5230 1"
+    },
+    "model": "bookhub.bookinfo",
+    "pk": 1
+},
+{
+    "fields": {
+        "chap_no": 1,
+        "book": 1,
+        "name": "\u672a\u6765\u7684\u6311\u6218",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 1
+},
+{
+    "fields": {
+        "chap_no": 2,
+        "book": 1,
+        "name": "\u50cf 1999 \u5e74\u90a3\u6837\u72c2\u6b22",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 2
+},
+{
+    "fields": {
+        "chap_no": 3,
+        "book": 1,
+        "name": "\u6240\u6709\u6210\u529f\u7684\u4f01\u4e1a\u90fd\u662f\u4e0d\u540c\u7684",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 3
+},
+{
+    "fields": {
+        "chap_no": 4,
+        "book": 1,
+        "name": "\u7ade\u4e89\u610f\u8bc6",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 4
+},
+{
+    "fields": {
+        "chap_no": 5,
+        "book": 1,
+        "name": "\u540e\u53d1\u4f18\u52bf",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 5
+},
+{
+    "fields": {
+        "chap_no": 6,
+        "book": 1,
+        "name": "\u6210\u529f\u4e0d\u662f\u4e2d\u5f69\u7968",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 6
+},
+{
+    "fields": {
+        "chap_no": 7,
+        "book": 1,
+        "name": "\u5411\u94b1\u770b",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 7
+},
+{
+    "fields": {
+        "chap_no": 8,
+        "book": 1,
+        "name": "\u79d8\u5bc6",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 8
+},
+{
+    "fields": {
+        "chap_no": 9,
+        "book": 1,
+        "name": "\u57fa\u7840\u51b3\u5b9a\u547d\u8fd0",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 9
+},
+{
+    "fields": {
+        "chap_no": 10,
+        "book": 1,
+        "name": "\u6253\u9020\u5e2e\u6d3e\u6587\u5316",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 10
+},
+{
+    "fields": {
+        "chap_no": 11,
+        "book": 1,
+        "name": "\u987e\u5ba2\u4e0d\u4f1a\u81ea\u52a8\u4e0a\u95e8",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 11
+},
+{
+    "fields": {
+        "chap_no": 12,
+        "book": 1,
+        "name": "\u4eba\u7c7b\u548c\u673a\u5668",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 12
+},
+{
+    "fields": {
+        "chap_no": 13,
+        "book": 1,
+        "name": "\u7eff\u8272\u80fd\u6e90\u4e0e\u7279\u65af\u62c9",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 13
+},
+{
+    "fields": {
+        "chap_no": 14,
+        "book": 1,
+        "name": "\u521b\u59cb\u4eba\u7684\u6096\u8bba",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 14
+},
+{
+    "fields": {
+        "chap_no": 101,
+        "book": 1,
+        "name": "\u505c\u6ede\u4e0d\u524d\uff0c\u8fd8\u662f\u4e34\u8fd1\u5947\u70b9",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 15
+},
+{
+    "fields": {
+        "chap_no": 0,
+        "book": 1,
+        "name": "\u524d\u8a00",
+        "abstract": ""
+    },
+    "model": "bookhub.chapter",
+    "pk": 16
+}
+]
