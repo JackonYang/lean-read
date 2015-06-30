@@ -21,5 +21,9 @@ rawname 存储首次上传所用的文件名,
 ## Build Dev Env
 
 ```shell
+# Prerequisites of Pillow on Ubuntu 14.04 LTS
+# for more OS suport, go to http://pillow.readthedocs.org/en/latest/installation.html
+$ sudo apt-get install libtiff5-dev libjpeg8-dev zlib1g-dev \
+    libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python-tk
 $ sudo pip install -r requirement.txt
 ```
