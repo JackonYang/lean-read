@@ -8,8 +8,6 @@ db.sqlite3
 local_settings.py
 *.log
 
-!PLACEHOLDER
-
 
 ### python ###
 *.py[cod]
@@ -30,3 +28,6 @@ pip-log.txt  # Installer logs
 
 # SVN
 .svn
+
+
+!PLACEHOLDER
