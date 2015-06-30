@@ -4,7 +4,15 @@ from bookhub import models as bookhub_model
 
 
 class BookInfoAdmin(admin.ModelAdmin):
-    list_display = ('title', 'douban_id', 'url_amazon')
+    list_display = ('cover_img', 'title', 'douban_id', 'url_amazon')
+    fields = ('title', ('cover', 'cover_img'), 'douban_id', 'url_amazon', 'desc')
+    readonly_fields = ('cover_img', )
+
+    def cover_img(self, ins):
+        return '<img src="%s" title="%s"/>' % (ins.cover.url_100x150, ins.title)
+
+    cover_img.short_description = "cover Preview"
+    cover_img.allow_tags = True
 
 
 class ChapterAdmin(admin.ModelAdmin):

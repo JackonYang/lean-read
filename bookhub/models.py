@@ -1,9 +1,11 @@
 #-*- coding:utf-8 -*-
 from django.db import models
+from django_thumbs.db.models import ImageWithThumbsField
 
 
 class BookInfo(models.Model):
     title = models.CharField(u'Title', max_length=100)
+    cover = ImageWithThumbsField(upload_to='cover', sizes=((100, 150), (300, 450)))
     desc = models.TextField(u'desc', max_length=500, blank=True)
     douban_id = models.CharField(u'Douban ID', max_length=100)
     url_amazon = models.CharField(u'Amazon URL', max_length=100)
